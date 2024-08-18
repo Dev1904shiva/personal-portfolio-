@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV RAJPUT - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(18, 12, 39);
+            color: antiquewhite;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 86px;
+            background-color: rgb(41, 8, 34);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(10, 183, 174);
+            font-size: 1.10rem;
+        }
+
+        main hr {
+            bottom: 0;
+            background: blanchedalmond;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        #left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 85px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        #leftsection {
+            font-size: 3rem;
+
+        }
+
+        #rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(28, 218, 205);
+        }
+
+        .text-gray {
+            color: rgb(118, 113, 113);
+        }
+
+        #element {
+            color: rgb(28, 218, 47);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: initial;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: #605240;
+            width: 90vw;
+            height: 10vw;
+            margin: 35px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 100%;
+            width: 0.5px;
+            background-color: #181716;
+            margin: 0 90px;
+        }
+
+        .secondSection .vertical-desk {
+            color: rgb(189, 159, 38);
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 246px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="left"> DEV RAJPUT Portfolio
+
+            </div>
+            <div id="right"></div>
+            <ul>
+                <li><a href="/">
+                        Home
+                    </a></li>
+
+                <li><a href="/">
+                        About
+                    </a></li>
+
+                <li><a href="/">
+                        Services
+                    </a></li>
+
+
+                <li><a href="/">
+                        Projects
+                    </a></li>
+
+                <li><a href="/">
+                        Contact Me
+                    </a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div id="leftsection">
+                Hi, My name is <span class="purple">DEV RAJPUT</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div id="rightsection">
+                <img src="https://casualino.com/wp-content/uploads/2020/09/developers.png" alt="" >
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    HTML
+                </div>
+                <div class="vertical-desk">
+                    I am learning and developing many exciting websites using html.
+                </div>
+                <div class="vertical">
+                    CSS
+                </div>
+                <div class="vertical-desk">
+                    Learning exciting features of css to design amazing website.
+                </div>
+                <div class="vertical">
+                    C Language
+                </div>
+                <div class="vertical-desk">
+                    This is quite hard to learn but very intresting after knowing about it.
+                </div>
+                <div class="vertical">
+                    Python
+                </div>
+                <div class="vertical-desk">
+                    This is a very popular language nowadays and easy to learn.
+                </div>
+                <div class="vertical">
+                    Java
+                </div>
+                <div class="vertical-desk">
+                    right now on the learning phase of all language
+                </div>
+        </section>
+    </main>
+    <footer>
+       <div class="footer">
+        <div class="footer-first">
+            <h3>  DEV RAJPUT developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                 
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <a href="link.html" ><li>Contact me</a>
+                <div>
+    
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div class="footer-rights">
+            www.officialdev.com | All rights reserved
+        </div>
+    
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer',' learner', ' Coder', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
